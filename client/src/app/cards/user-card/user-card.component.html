@@ -1,0 +1,15 @@
+<!-- Card -->
+<div>
+
+    <div>
+
+        <!-- Name -->
+        <h3><strong>{{ user ? user.name : '' }} {{ user ? user.surname : '' }}</strong></h3>
+        <p>{{ user ? user.email : '' }}</p>
+        <p>{{ user ? user.phoneNumber : '' }}</p>
+        <p>{{ user ? user.creationDate.toLocaleString() : '' }}</p>
+
+    </div>
+
+</div>
+<!-- Card -->

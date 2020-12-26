@@ -1,0 +1,17 @@
+<form [formGroup]="form">
+    <p class="h2 text-center">Пожалуйста, авторизуйтесь</p>
+
+    <div style="padding-bottom: 20px "><label for="email">Email</label>
+        <input mdbInput mdbValidate type="text" formControlName="email" id="email" class="form-control">
+        
+    </div>
+
+    <div style="padding-bottom: 20px "><label for="password">Пароль</label>
+        <input mdbInput mdbValidate type="password" formControlName="password" id="password" class="form-control">
+        
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-outline-danger" value="Войти" (click)="onAuth()">Войти</button>
+    </div>
+</form>

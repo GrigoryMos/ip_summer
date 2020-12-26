@@ -1,0 +1,22 @@
+<app-dashboard></app-dashboard>
+
+<div class="container mt-5">
+
+    <div class="list-group">
+        <a *ngFor="let order of orders"
+           class="list-group-item list-group-item-action flex-column align-items-start"
+           routerLink="/admin/orders/{{ order.id }}">
+            <div class="d-flex justify-content-between">
+                <h3 class="mb-1">№{{ order.id }}</h3>
+                
+            </div><span class="badge badge-danger">{{ order.status ? order.status.title : '' }}</span><br>
+            <small>Заказчик:
+                <a  class="text-danger" routerLink="/admin/users/{{ order.userId }}">
+                    {{ order.userOwner ? order.userOwner.fullName : '' }}
+                </a>
+            </small>
+        </a>
+
+    </div>
+
+</div>

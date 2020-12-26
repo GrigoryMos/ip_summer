@@ -1,0 +1,341 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "password": "A000000!",
+      "user_type_id": 1,
+      "email": "Admin@gmail.ru",
+      "name": "Григорий",
+      "surname": "Воротников",
+      "creation_date": "2020-09-10T18:39:21.033Z"
+    },
+    {
+      "id": 2,
+      "password": "O000000!",
+      "user_type_id": 2,
+      "email": "Operator@gmail.ru",
+      "name": "Григорий",
+      "surname": "Алексеев",
+      "phone_number": "+79040000000",
+      "creation_date": "2020-09-11T21:43:10.033Z"
+    },
+    {
+      "id": 3,
+      "password": "C000000!",
+      "user_type_id": 3,
+      "email": "Client@gmail.ru",
+      "name": "Иванов",
+      "surname": "Иван",
+      "phone_number": "+79044757569",
+      "creation_date": "2020-04-01T13:51:59.066Z"
+    },
+    {
+      "id": 4,
+      "user_type_id": 3,
+      "name": "Григорий",
+      "surname": "Воротников",
+      "email": "vor@gmail.com",
+      "phone_number": "89040000000",
+      "creation_date": "2020-06-28T13:29:56.339Z"
+    },
+    {
+      "id": 5,
+      "user_type_id": 3,
+      "name": "Петр",
+      "surname": "Петров",
+      "email": "petrov@mail.ru",
+      "phone_number": "3155122312315",
+      "creation_date": "2020-07-13T18:18:55.054Z"
+    }
+  ],
+  "user_types": [
+    {
+      "id": 1,
+      "title": "Администраторы"
+    },
+    {
+      "id": 2,
+      "title": "Операторы"
+    },
+    {
+      "id": 3,
+      "title": "Покупатели"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "image": "https://i.pinimg.com/564x/49/23/93/492393fe4042712ade85422e3e20c1f8.jpg",
+      "name": "Диск золотистый",
+      "price": "40000"
+    },
+    {
+      "id": "2",
+      "image": "https://s3.amazonaws.com/assets.performanceplustire.com/Wheels/Raceline/Raceline_158_gloss_black.jpg",
+      "name": "Диск черный",
+      "price": "30000"
+    },
+    {
+      "id": "3",
+      "image": "https://i.pinimg.com/564x/2f/eb/66/2feb66ca1a36808113aaf9e6bac55670.jpg",
+      "name": "Шина №1",
+      "price": "4000"
+    },
+    {
+      "id": "4",
+      "image": "https://i.pinimg.com/564x/0b/bc/b4/0bbcb4fbb6e52401e29793c0cf709602.jpg",
+      "name": "Шина №2",
+      "price": "7000"
+    },
+    {
+      "id": "5",
+      "image": "https://i.pinimg.com/564x/aa/36/1d/aa361dc581daf946f8751e9a33a3c1f2.jpg",
+      "name": "Шина №3",
+      "price": "5000"
+    },
+    {
+      "id": "6",
+      "image": "https://i.pinimg.com/564x/90/51/49/905149030b3b32130e5d8dcb0930595d.jpg",
+      "name": "Шина №4",
+      "price": "3000"
+    },
+    {
+      "id": "7",
+      "image": "https://i.pinimg.com/564x/de/42/1c/de421c7d3acd46ff8ad8b2c60b2244b0.jpg",
+      "name": "Диск красный",
+      "price": "40000"
+    },
+    {
+      "id": "8",
+      "image": "https://i.pinimg.com/564x/96/2d/d2/962dd2c778868c1247dd86a12cf1bc44.jpg",
+      "name": "Комплект",
+      "price": "130000"
+    },
+    {
+      "id": "9",
+      "image": "https://i.pinimg.com/564x/23/9a/44/239a44669340a13db485f79256c763de.jpg",
+      "name": "Шины 2шт",
+      "price": "20000"
+    },
+    {
+      "id": "10",
+      "image": "https://i.pinimg.com/564x/cf/b6/f9/cfb6f9a850ad7d9207ee3091376376b8.jpg",
+      "name": "Шина №5",
+      "price": "40000"
+    }
+  ],
+  "order_statuses": [
+    {
+      "id": 1,
+      "title": "Рассматривается"
+    },
+    {
+      "id": 2,
+      "title": "Собирается на складе"
+    },
+    {
+      "id": 3,
+      "title": "Отменен"
+    },
+    {
+      "id": 4,
+      "title": "Завершен"
+    }
+  ],
+  "rules": [
+    {
+      "id": 1,
+      "title": "Доступ к административной панели"
+    },
+    {
+      "id": 2,
+      "title": "Доступ к личному кабинету"
+    },
+    {
+      "id": 3,
+      "title": "Создание пользователей административной роли"
+    },
+    {
+      "id": 4,
+      "title": "Редактирование информации на сайте"
+    },
+    {
+      "id": 5,
+      "title": "Просмотр заказов всех пользователей"
+    },
+    {
+      "id": 6,
+      "title": "Изменение статуса заказа"
+    },
+    {
+      "id": 7,
+      "title": "Отправка уведомлений заказчику"
+    },
+    {
+      "id": 8,
+      "title": "Просмотр и редактирование правил"
+    },
+    {
+      "id": 9,
+      "title": "Просмотр пользователей"
+    },
+    {
+      "id": 10,
+      "title": "Назначать менеджеров проектов на заказ"
+    }
+  ],
+  "user_type_rules": [
+    {
+      "id": 1,
+      "user_type_id": 1,
+      "rule_id": 1
+    },
+    {
+      "id": 2,
+      "user_type_id": 2,
+      "rule_id": 1
+    },
+    {
+      "id": 3,
+      "user_type_id": 2,
+      "rule_id": 9
+    },
+    {
+      "id": 4,
+      "user_type_id": 2,
+      "rule_id": 5
+    },
+    {
+      "id": 5,
+      "user_type_id": 2,
+      "rule_id": 6
+    },
+    {
+      "id": 7,
+      "user_type_id": 3,
+      "rule_id": 1
+    },
+    {
+      "id": 8,
+      "user_type_id": 3,
+      "rule_id": 5
+    },
+    {
+      "id": 9,
+      "user_type_id": 3,
+      "rule_id": 6
+    },
+    {
+      "id": 10,
+      "user_type_id": 3,
+      "rule_id": 7
+    },
+    {
+      "id": 11,
+      "user_type_id": 4,
+      "rule_id": 2
+    },
+    {
+      "id": 13,
+      "user_type_id": 1,
+      "rule_id": 8
+    },
+    {
+      "id": 19,
+      "user_type_id": 2,
+      "rule_id": 7
+    },
+    {
+      "id": 20,
+      "user_type_id": 1,
+      "rule_id": 5
+    },
+    {
+      "id": 21,
+      "user_type_id": 1,
+      "rule_id": 7
+    },
+    {
+      "id": 22,
+      "user_type_id": 1,
+      "rule_id": 6
+    },
+    {
+      "id": 23,
+      "user_type_id": 1,
+      "rule_id": 10
+    },
+    {
+      "id": 24,
+      "user_type_id": 1,
+      "rule_id": 9
+    },
+    {
+      "id": 25,
+      "user_type_id": 1,
+      "rule_id": 4
+    },
+    {
+      "id": 26,
+      "user_type_id": 1,
+      "rule_id": 3
+    },
+    {
+      "id": 27,
+      "user_type_id": 2,
+      "rule_id": 6
+    },
+    {
+      "id": 28,
+      "user_type_id": 3,
+      "rule_id": 10
+    },
+    {
+      "id": 29,
+      "user_type_id": 3,
+      "rule_id": 9
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 3,
+      "order_type_id": null,
+      "description": null,
+      "order_status_id": 1,
+      "manager_id": 2
+    },
+    {
+      "id": 2,
+      "user_id": 3,
+      "order_type_id": null,
+      "description": null,
+      "order_status_id": 1,
+      "manager_id": 2
+    },
+    {
+      "id": 3,
+      "user_id": 4,
+      "order_type_id": null,
+      "description": null,
+      "order_status_id": 1,
+      "manager_id": 2
+    },
+    {
+      "id": 4,
+      "user_id": 5,
+      "order_type_id": null,
+      "description": null,
+      "order_status_id": 1,
+      "manager_id": 2
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "order_type_id": null,
+      "description": null,
+      "order_status_id": 1,
+      "manager_id": 2
+    }
+  ]
+}

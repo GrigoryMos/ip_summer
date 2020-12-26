@@ -1,0 +1,24 @@
+<!-- Default form register -->
+<form class="text-center" [formGroup]="form">
+
+  <p class="h2 text-center">Регистрация пользователя</p>
+            <input type="text" id="name" class="form-control" formControlName="name" placeholder="Имя">
+            <input type="text" id="surname" class="form-control" formControlName="surname" placeholder="Фамилия">
+    <!-- Subject -->
+    <select class="browser-default custom-select mb-4" formControlName="userTypeId">
+        <option selected [ngValue]="null">Выберите роль...</option>
+        <option *ngFor="let userType of userTypes" [ngValue]="userType.id">{{ userType.title }}</option>
+    </select>
+    <input type="email" id="email" class="form-control" formControlName="email" placeholder="E-mail">
+
+    <!-- Password -->
+    <input type="password" id="password" class="form-control" placeholder="Пароль" formControlName="password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+
+    <!-- Phone number -->
+    <input type="text" id="phoneNumber" class="form-control mb-4" placeholder="Номер телефона" formControlName="phoneNumber">
+
+    <!-- Send button -->
+    <button mdbBtn class="btn btn-outline-danger" block="true" type="submit" (click)="createUser()">Добавить пользователя</button>
+
+</form>
+<!-- Default form register -->

@@ -1,0 +1,11 @@
+<!-- Default form register -->
+<form class="text-center" [formGroup]="form">
+
+  <p class="h2 text-center">Создание товара</p>
+  <input type="text" id="name" class="form-control" formControlName="name" placeholder="Название товара">
+  <input type="text" id="image" class="form-control" formControlName="image" placeholder="Ссылка на изображение">
+  <input type="text" id="price" class="form-control" formControlName="price" placeholder="Цена">
+  <button mdbBtn class="btn btn-outline-danger" block="true" type="submit" (click)="createProduct()">Добавить товар</button>
+
+</form>
+<!-- Default form register -->

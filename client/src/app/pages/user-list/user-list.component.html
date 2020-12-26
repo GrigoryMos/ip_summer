@@ -1,0 +1,12 @@
+<div class="container mt-5">
+  <h1></h1>
+        <div *ngFor="let type of userTypes" class="col-4">
+            <h1 class="mt-4">{{ type.title }}</h1>
+            <div class="list-group">
+                <a *ngFor="let user of (users | userByType:type)">
+                        <p class="mb-1">{{ user.fullName }}</p>
+                </a>
+            </div>
+        </div>
+  <app-create-user-form *ngIf="canCreateUser"></app-create-user-form>
+</div>
